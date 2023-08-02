@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Atyp-R', sans-serif;
+    src: url(../fonts/AtypDisplay-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400; 
+}
+@font-face {
+    font-family: 'Atyp-S', sans-serif;
+    src: url(../fonts/AtypDisplay-Semibold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400; 
+}
