@@ -1,8 +1,24 @@
 .categories__wrap{
-    display: flex;
+    display: flex; 
     align-items: center;
     justify-content: center;
-    /* position: relative; */
+    flex-direction: column;
+    position: relative;
+  }
+  .categories__title_wrap{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    margin: 49px;
+  }
+  .categories__title{
+    color: #4B4B4B;
+    font-size: 36px;
+    text-transform: capitalize;
+  }
+  .categories__title-hr{
+    width: 100%;
+    border-bottom: 1px solid #B8B8B8;;
   }
   .carousel {
     min-width: 1330px;
@@ -12,9 +28,7 @@
     width: calc(10% - 60px);
     /* z-index: -1; */
   }
-
-  
-  .activator {
+    .activator {
     display: none;
   }
   

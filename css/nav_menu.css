@@ -26,6 +26,11 @@
     align-self: stretch; 
 
 }
+.header__nav_submenu_item a:hover {
+   color: #C93075; 
+   border-bottom: 1px solid #C93075;
+   padding-bottom: 10px;
+}
 
  
 @media(max-width: 599px) {
@@ -65,7 +70,6 @@
       left: -120%;
       top: 170%;
       background: #fff;
-      z-index: 100;
       visibility: hidden;
       opacity: 0;
       transform: scale(.8);
@@ -74,7 +78,7 @@
       width: 590px;
       column-rule: 1px solid rgba(241, 241, 241, 0.95) ;
       border-radius: 0px 20px 20px 0px; 
-      padding: 58px;
+      padding: 31px 48px;
 
    }
    .header__nav_topmenu>li:hover .header__nav_submenu {
@@ -84,7 +88,5 @@
    }
    .header__nav_submenu li a {
       text-align: left;
-      padding: 10px 0;
-
    }
 }
