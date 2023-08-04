@@ -34,5 +34,64 @@ body{
   .sticky + .content {
     padding-top: 200px;
   }
+.order{
+    margin-bottom: 125px;
+}
+  .order__wrap{
+    display: flex;
+    flex-direction: column;
+    /* align-items: end; */
+    justify-content: start;
+    /* width: 100%; */
+    gap: 48px;
+  }
+  .order__title_wrap{
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    width: 100%;
+  }
+  .order__title{
+    color: #000;
+    font-size: 36px;
+    width: 100%;
+    max-width: 347px;
+    align-self: stretch; 
+  }
+  .order__title-hr{
+    width: 100%;
+    border: 1px solid #B8B8B8;
+  }
+  .order__card{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 24px;
+  }
+  .order__card_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 24px;
+    max-width: 636px;
+  }
+  .order__card-h{
+    padding-bottom: 12px;
+    color: #000;
+    font-size: 24px;
+    align-self: stretch; 
+  }
+  .order__card-p{
+    color: #000;
+    font-size: 16px;
+    align-self: stretch; 
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 
-  
+
+  }
+  .order__card-btn{
+    background: #C93075; 
+    max-width: 205px;
+  }
