@@ -12,7 +12,9 @@
     width: 100%;
     text-align: left;
     display: flex;
-    margin: 49px;
+    /* margin: 49px; */
+    gap: 48px;
+
   }
   .categories__title{
     color: #4B4B4B;
@@ -24,7 +26,7 @@
     border-bottom: 1px solid #B8B8B8;;
   }
   .carousel {
-    min-width: 1330px;
+    min-width: 1310px;
     width: 100%;
     padding-left: 0 30px;
     position: relative;
@@ -69,7 +71,7 @@
   }
   .control--forward{
     position: absolute;
-    right: -40px;
+    right: -50px;
   }
   
   .activator:nth-of-type(1):checked ~ .controls:nth-of-type(1) {

@@ -2,6 +2,7 @@
     width: 100vw;
     border-radius: 20px;
     background: rgba(241, 241, 241, 0.95);
+    padding: 48px 0;
     margin-bottom: 53px;
 }
 .rules__wrap{
