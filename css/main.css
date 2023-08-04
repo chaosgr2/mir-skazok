@@ -35,11 +35,9 @@ body{
   .sticky + .content {
     padding-top: 200px;
   }
-
-
-
-
-
+  .feedback{
+    margin-bottom: 100px;
+  }
   .feedback__wrap{
       display: flex; 
       align-items: center;
